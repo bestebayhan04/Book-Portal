@@ -1,0 +1,80 @@
+.seller-management {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.add-seller {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.seller-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.add-seller-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-seller-button:hover {
+    background-color: #122b41;
+}
+
+.seller-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.seller-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.seller-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.seller-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.seller-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #d7c39f;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.seller-buttons button:hover {
+    background-color: #e2e6ea;
+}
+
+.search-input {
+    width: 200px; /* Adjust this value to make the search bar shorter */
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
